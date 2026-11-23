@@ -3,20 +3,8 @@
   "version": "1.0.0",
   "description": "One-line joke about working beside AI coding agents for make.fun bounty",
   "main": "dist/main.js",
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/main.js",
-    "dev": "ts-node main.ts"
-  },
+  "scripts": { "build": "tsc", "start": "node dist/main.js" },
   "keywords": ["makefun", "joke", "ai-coding-agents"],
-  "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^22.0.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.0"
-  },
-  "engines": {
-    "node": ">=22.0.0"
-  }
+  "engines": { "node": ">=22.0.0" }
 }
